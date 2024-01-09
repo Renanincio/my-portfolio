@@ -2,9 +2,8 @@ import About from "./Sections/About";
 import Contact from "./Sections/Contact";
 import Header from "./Sections/Header";
 import Skills from "./Sections/Skills";
-import Testimonials from "./Sections/Testimonials";
 import Work from "./Sections/Work";
-import  Navbar  from "./components/Navbar";
+import Navbar from "./components/Navbar";
 
 function App() {
   
@@ -16,7 +15,6 @@ function App() {
       <About />
       <Work />
       <Skills />
-      <Testimonials />
       <Contact />
     </>
   );

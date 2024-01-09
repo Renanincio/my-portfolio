@@ -3,31 +3,28 @@ import { motion } from "framer-motion";
 const About = () => {
   const abouts = [
     {
-      title: "backend developer",
-      imgUrl: "/about04.png",
-      desc: "I am a backend developer with a passion for building beautiful and functional web applications.",
+      title: "Desenvolvedor back-end",
+      imgUrl: "/about04.png"
     },
     {
-      title: "frontend developer",
-      imgUrl: "/about01.png",
-      desc: "I am a frontend developer with a passion for building beautiful and functional web applications.",
+      title: "Desenvolvedor front-end",
+      imgUrl: "/about02.png"
     },
     {
-      title: "react native developer",
-      imgUrl: "/about03.png",
-      desc: "I am a React Native developer with a passion for building beautiful and functional mobile applications.",
+      title: "Desenvolvedor react native",
+      imgUrl: "/about01.png"
     },
   ];
 
   return (
     <>
       <div
-        id="about"
+        id="Sobre"
         className="flex flex-1 w-full flex-col justify-center items-center min-h-screen p-8"
       >
         <h2 className="head-text text-[2.75rem] font-extrabold text-center capitalize min-[2000px]:text-[4rem]">
-          I Know that <span className="text-[#313BAC]">Good Design</span> <br />
-          means <span className="text-[#313BAC]">Good Business</span>
+          Eu sei que <span className="text-[#313BAC]">Bons aplicativos</span> <br />
+          siginificam <span className="text-[#313BAC]">bons negócios</span>
         </h2>
 
         <div className="app__profiles flex justify-center items-start flex-wrap mt-8">
@@ -50,9 +47,7 @@ const About = () => {
               >
                 {about.title}
               </h2>
-              <p className="text-[0.8rem] text-gray-400 leading-normal min-[2000px]:text-[1.75rem]   w-full uppercase text-start mt-4">
-                {about.desc}
-              </p>
+              
             </motion.div>
           ))}
         </div>
