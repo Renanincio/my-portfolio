@@ -30,7 +30,7 @@ const Navbar = () => {
           >
             <HiX className="text-[#313bac] cursor-pointer w-7 h-7" onClick={() => setToggle(false)} />
             <ul className='list-none m-0 p-0 h-full w-full flex justify-start items-start flex-col min-[900px]:hidden'>
-              {['home', 'about', 'work', 'skills', 'contact'].map((item) => (
+              {['início', 'Sobre', 'Projetos', 'Habilidades', 'Contato'].map((item) => (
                 <li className="m-4" key={item}>
                   <a className='text-gray-400 no-underline uppercase text-base font-medium transition-all ease-in-out delay-[0.3] hover:text-[#313bac]' href={`#${item}`} onClick={() => setToggle(false)}>
                     {item}
