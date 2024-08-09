@@ -24,7 +24,7 @@ const About = () => {
       >
         <h2 className="head-text text-[2.75rem] font-extrabold text-center capitalize min-[2000px]:text-[4rem]">
           Eu sei que <span className="text-[#313BAC]">Bons aplicativos</span> <br />
-          siginificam <span className="text-[#313BAC]">bons negócios</span>
+          significam <span className="text-[#313BAC]">bons negócios</span>
         </h2>
 
         <div className="app__profiles flex justify-center items-start flex-wrap mt-8">
