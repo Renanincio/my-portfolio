@@ -46,9 +46,10 @@ const Header = () => (
       transition={{ duration: 0.5, delayChildren: 0.5 }}
       className="app__header-img flex-1 h-full flex justify-center items-end relative max-[1200px]:my-8 max-[1200px]:mx-0"
     >
-      <img
-        className="max-[950px]:w-full w-[350px] object-contain z-[1]"
-        src="/cherry.png"
+
+<img
+        className="max-[950px]:w-full w-[475px] rounded-[100%] object-contain z-[1] "
+        src="/perfil.webp"
         alt="profile_bg"
       />
       <motion.img

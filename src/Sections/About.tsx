@@ -11,7 +11,7 @@ const About = () => {
       imgUrl: "/about02.png"
     },
     {
-      title: "Desenvolvedor react native",
+      title: "Desenvolvedor mobile",
       imgUrl: "/about01.png"
     },
   ];

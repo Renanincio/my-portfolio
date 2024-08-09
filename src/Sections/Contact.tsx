@@ -1,3 +1,7 @@
+import { FaDownload, FaGithub  } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa6";
+import { MdAttachEmail } from "react-icons/md";
+
 const Contact = () => {
   return (
     <>
@@ -9,18 +13,55 @@ const Contact = () => {
           Pegue um café e converse comigo
         </h2>
 
-        <div className="app__footer-cards w-[60%] flex justify-center items-center flex-wrap mt-16 mr-8 mb-8 max-[768px]:w-full">
+        <div className="app__footer-cards w-[60%] flex gap-4 justify-center items-center flex-wrap mt-16 mr-8 mb-8 max-[768px]:w-full">
           <div className="app__footer-card min-w-[290px] flex flex-row justify-start items-center my-4 mx-0 p-4 rounded-[10px] cursor-pointer bg-[#fef4f5] transition-all delay-[0.3] ease-in-out hover:shadow-skills max-[450px]:w-full">
-            <img
-              className="w-[40px] h-[40px] my-0 mx-[0.7rem]"
-              src="/email.png"
-              alt="email"
-            />
+          <span className="text-[#FFC9D0]">
+                <MdAttachEmail className="w-[40px] h-[40px] my-0 mx-[0.7rem]" />
+              </span>
             <a
               href="mailto:renanincioprgmdr@gmail.com"
               className="p-text no-underline text-[0.8rem] text-gray-400 leading-normal min-[2000px]:text-[1.75rem]   w-full uppercase text-center"
             >
               renanincioprgmdr@gmail.com
+            </a>
+          </div>
+          <div className="app__footer-card min-w-[290px] flex flex-row justify-start items-center my-4 mx-0 p-4 rounded-[10px] cursor-pointer bg-[#fef4f5] transition-all delay-[0.3] ease-in-out hover:shadow-skills max-[450px]:w-full">
+          <span className="text-[#FFC9D0]">
+                <FaDownload className="w-[40px] h-[40px] my-0 mx-[0.7rem]" />
+              </span>
+            <a
+              href="/Currículo .pdf"
+              download
+              className="p-text no-underline text-[0.8rem] text-gray-400 leading-normal min-[2000px]:text-[1.75rem]   w-full uppercase text-center"
+            >
+              Download CV
+              
+            </a>
+          </div>
+          <div className="app__footer-card min-w-[290px] flex flex-row justify-start items-center my-4 mx-0 p-4 rounded-[10px] cursor-pointer bg-[#fef4f5] transition-all delay-[0.3] ease-in-out hover:shadow-skills max-[450px]:w-full">
+          <span className="text-[#FFC9D0]">
+                <FaGithub  className="w-[40px] h-[40px] my-0 mx-[0.7rem]" />
+              </span>
+            <a
+              href="https://github.com/Renanincio"
+              target="__blank"
+              className="p-text no-underline text-[0.8rem] text-gray-400 leading-normal min-[2000px]:text-[1.75rem]   w-full uppercase text-center"
+            >
+              GitHub
+              
+            </a>
+          </div>
+          <div className="app__footer-card min-w-[290px] flex flex-row justify-start items-center my-4 mx-0 p-4 rounded-[10px] cursor-pointer bg-[#fef4f5] transition-all delay-[0.3] ease-in-out hover:shadow-skills max-[450px]:w-full">
+          <span className="text-[#FFC9D0]">
+                <FaLinkedin className="w-[40px] h-[40px] my-0 mx-[0.7rem]" />
+              </span>
+            <a
+              href="https://www.linkedin.com/in/renan-inacio-968401240/"
+              target="__blank"
+              className="p-text no-underline text-[0.8rem] text-gray-400 leading-normal min-[2000px]:text-[1.75rem]   w-full uppercase text-center"
+            >
+              LinkedIn
+              
             </a>
           </div>
           
